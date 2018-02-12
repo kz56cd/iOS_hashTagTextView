@@ -14,7 +14,7 @@
 		EA34630520305561000ECA26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA34630320305561000ECA26 /* LaunchScreen.storyboard */; };
 		EA34631020305561000ECA26 /* HashTagTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34630F20305561000ECA26 /* HashTagTextViewTests.swift */; };
 		EA34631B20305562000ECA26 /* HashTagTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34631A20305562000ECA26 /* HashTagTextViewUITests.swift */; };
-		EA34632A20319BD2000ECA26 /* RegeributedTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA34632920319BD2000ECA26 /* RegeributedTextView.framework */; };
+		EA34632C20319DD3000ECA26 /* RegeributedTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA34632920319BD2000ECA26 /* RegeributedTextView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA34632A20319BD2000ECA26 /* RegeributedTextView.framework in Frameworks */,
+				EA34632C20319DD3000ECA26 /* RegeributedTextView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RegeributedTextView",
+				"$(SRCROOT)/Carthage/Build/iOS/RegeributedTextView.framework",
 			);
 			name = Carthage;
 			outputPaths = (

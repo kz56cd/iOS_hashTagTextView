@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA3462FB20305561000ECA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3462FA20305561000ECA26 /* AppDelegate.swift */; };
+		EA3462FD20305561000ECA26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3462FC20305561000ECA26 /* ViewController.swift */; };
+		EA34630020305561000ECA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3462FE20305561000ECA26 /* Main.storyboard */; };
+		EA34630220305561000ECA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA34630120305561000ECA26 /* Assets.xcassets */; };
+		EA34630520305561000ECA26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA34630320305561000ECA26 /* LaunchScreen.storyboard */; };
+		EA34631020305561000ECA26 /* HashTagTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34630F20305561000ECA26 /* HashTagTextViewTests.swift */; };
+		EA34631B20305562000ECA26 /* HashTagTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34631A20305562000ECA26 /* HashTagTextViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA34630C20305561000ECA26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3462EF20305561000ECA26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3462F620305561000ECA26;
+			remoteInfo = HashTagTextView;
+		};
+		EA34631720305561000ECA26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3462EF20305561000ECA26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3462F620305561000ECA26;
+			remoteInfo = HashTagTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA3462F720305561000ECA26 /* HashTagTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HashTagTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3462FA20305561000ECA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA3462FC20305561000ECA26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA3462FF20305561000ECA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA34630120305561000ECA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA34630420305561000ECA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA34630620305561000ECA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA34630B20305561000ECA26 /* HashTagTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashTagTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA34630F20305561000ECA26 /* HashTagTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTagTextViewTests.swift; sourceTree = "<group>"; };
+		EA34631120305561000ECA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA34631620305561000ECA26 /* HashTagTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashTagTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA34631A20305562000ECA26 /* HashTagTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTagTextViewUITests.swift; sourceTree = "<group>"; };
+		EA34631C20305562000ECA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3462F420305561000ECA26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34630820305561000ECA26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34631320305561000ECA26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3462EE20305561000ECA26 = {
+			isa = PBXGroup;
+			children = (
+				EA3462F920305561000ECA26 /* HashTagTextView */,
+				EA34630E20305561000ECA26 /* HashTagTextViewTests */,
+				EA34631920305561000ECA26 /* HashTagTextViewUITests */,
+				EA3462F820305561000ECA26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3462F820305561000ECA26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3462F720305561000ECA26 /* HashTagTextView.app */,
+				EA34630B20305561000ECA26 /* HashTagTextViewTests.xctest */,
+				EA34631620305561000ECA26 /* HashTagTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3462F920305561000ECA26 /* HashTagTextView */ = {
+			isa = PBXGroup;
+			children = (
+				EA3462FA20305561000ECA26 /* AppDelegate.swift */,
+				EA3462FC20305561000ECA26 /* ViewController.swift */,
+				EA3462FE20305561000ECA26 /* Main.storyboard */,
+				EA34630120305561000ECA26 /* Assets.xcassets */,
+				EA34630320305561000ECA26 /* LaunchScreen.storyboard */,
+				EA34630620305561000ECA26 /* Info.plist */,
+			);
+			path = HashTagTextView;
+			sourceTree = "<group>";
+		};
+		EA34630E20305561000ECA26 /* HashTagTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA34630F20305561000ECA26 /* HashTagTextViewTests.swift */,
+				EA34631120305561000ECA26 /* Info.plist */,
+			);
+			path = HashTagTextViewTests;
+			sourceTree = "<group>";
+		};
+		EA34631920305561000ECA26 /* HashTagTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA34631A20305562000ECA26 /* HashTagTextViewUITests.swift */,
+				EA34631C20305562000ECA26 /* Info.plist */,
+			);
+			path = HashTagTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3462F620305561000ECA26 /* HashTagTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA34631F20305562000ECA26 /* Build configuration list for PBXNativeTarget "HashTagTextView" */;
+			buildPhases = (
+				EA3462F320305561000ECA26 /* Sources */,
+				EA3462F420305561000ECA26 /* Frameworks */,
+				EA3462F520305561000ECA26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashTagTextView;
+			productName = HashTagTextView;
+			productReference = EA3462F720305561000ECA26 /* HashTagTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA34630A20305561000ECA26 /* HashTagTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA34632220305562000ECA26 /* Build configuration list for PBXNativeTarget "HashTagTextViewTests" */;
+			buildPhases = (
+				EA34630720305561000ECA26 /* Sources */,
+				EA34630820305561000ECA26 /* Frameworks */,
+				EA34630920305561000ECA26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA34630D20305561000ECA26 /* PBXTargetDependency */,
+			);
+			name = HashTagTextViewTests;
+			productName = HashTagTextViewTests;
+			productReference = EA34630B20305561000ECA26 /* HashTagTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA34631520305561000ECA26 /* HashTagTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA34632520305562000ECA26 /* Build configuration list for PBXNativeTarget "HashTagTextViewUITests" */;
+			buildPhases = (
+				EA34631220305561000ECA26 /* Sources */,
+				EA34631320305561000ECA26 /* Frameworks */,
+				EA34631420305561000ECA26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA34631820305561000ECA26 /* PBXTargetDependency */,
+			);
+			name = HashTagTextViewUITests;
+			productName = HashTagTextViewUITests;
+			productReference = EA34631620305561000ECA26 /* HashTagTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3462EF20305561000ECA26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Masakazu Sano";
+				TargetAttributes = {
+					EA3462F620305561000ECA26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EA34630A20305561000ECA26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA3462F620305561000ECA26;
+					};
+					EA34631520305561000ECA26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA3462F620305561000ECA26;
+					};
+				};
+			};
+			buildConfigurationList = EA3462F220305561000ECA26 /* Build configuration list for PBXProject "HashTagTextView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3462EE20305561000ECA26;
+			productRefGroup = EA3462F820305561000ECA26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3462F620305561000ECA26 /* HashTagTextView */,
+				EA34630A20305561000ECA26 /* HashTagTextViewTests */,
+				EA34631520305561000ECA26 /* HashTagTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3462F520305561000ECA26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA34630520305561000ECA26 /* LaunchScreen.storyboard in Resources */,
+				EA34630220305561000ECA26 /* Assets.xcassets in Resources */,
+				EA34630020305561000ECA26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34630920305561000ECA26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34631420305561000ECA26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3462F320305561000ECA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3462FD20305561000ECA26 /* ViewController.swift in Sources */,
+				EA3462FB20305561000ECA26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34630720305561000ECA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA34631020305561000ECA26 /* HashTagTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34631220305561000ECA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA34631B20305562000ECA26 /* HashTagTextViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA34630D20305561000ECA26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3462F620305561000ECA26 /* HashTagTextView */;
+			targetProxy = EA34630C20305561000ECA26 /* PBXContainerItemProxy */;
+		};
+		EA34631820305561000ECA26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3462F620305561000ECA26 /* HashTagTextView */;
+			targetProxy = EA34631720305561000ECA26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA3462FE20305561000ECA26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3462FF20305561000ECA26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA34630320305561000ECA26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA34630420305561000ECA26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA34631D20305562000ECA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA34631E20305562000ECA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA34632020305562000ECA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = HashTagTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.HashTagTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA34632120305562000ECA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = HashTagTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.HashTagTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA34632320305562000ECA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = HashTagTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.HashTagTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HashTagTextView.app/HashTagTextView";
+			};
+			name = Debug;
+		};
+		EA34632420305562000ECA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = HashTagTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.HashTagTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HashTagTextView.app/HashTagTextView";
+			};
+			name = Release;
+		};
+		EA34632620305562000ECA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = HashTagTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.HashTagTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HashTagTextView;
+			};
+			name = Debug;
+		};
+		EA34632720305562000ECA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = HashTagTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.HashTagTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HashTagTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3462F220305561000ECA26 /* Build configuration list for PBXProject "HashTagTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA34631D20305562000ECA26 /* Debug */,
+				EA34631E20305562000ECA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA34631F20305562000ECA26 /* Build configuration list for PBXNativeTarget "HashTagTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA34632020305562000ECA26 /* Debug */,
+				EA34632120305562000ECA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA34632220305562000ECA26 /* Build configuration list for PBXNativeTarget "HashTagTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA34632320305562000ECA26 /* Debug */,
+				EA34632420305562000ECA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA34632520305562000ECA26 /* Build configuration list for PBXNativeTarget "HashTagTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA34632620305562000ECA26 /* Debug */,
+				EA34632720305562000ECA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3462EF20305561000ECA26 /* Project object */;
+}

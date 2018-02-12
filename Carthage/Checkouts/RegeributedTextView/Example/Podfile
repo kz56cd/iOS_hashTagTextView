@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'RegeributedTextView_Example' do
+  pod 'RegeributedTextView', :path => '../'
+  target 'RegeributedTextView_Tests' do
+    inherit! :search_paths
+    pod 'Quick', '~> 1.2.0'
+    pod 'Nimble', '~> 7.0.2'
+  end
+end

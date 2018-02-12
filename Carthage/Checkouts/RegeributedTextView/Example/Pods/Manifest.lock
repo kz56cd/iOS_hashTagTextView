@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (7.0.2)
+  - Quick (1.2.0)
+  - RegeributedTextView (0.2.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+  - RegeributedTextView (from `../`)
+
+EXTERNAL SOURCES:
+  RegeributedTextView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  RegeributedTextView: 76a4a8b8bee24f162eefd411dd25a99b57ce1169
+
+PODFILE CHECKSUM: 91f2e003be760ef0289129ad86a7123f588f4779
+
+COCOAPODS: 1.2.1

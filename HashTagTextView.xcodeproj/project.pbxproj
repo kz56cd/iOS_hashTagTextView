@@ -14,6 +14,7 @@
 		EA34630520305561000ECA26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA34630320305561000ECA26 /* LaunchScreen.storyboard */; };
 		EA34631020305561000ECA26 /* HashTagTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34630F20305561000ECA26 /* HashTagTextViewTests.swift */; };
 		EA34631B20305562000ECA26 /* HashTagTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34631A20305562000ECA26 /* HashTagTextViewUITests.swift */; };
+		EA34632A20319BD2000ECA26 /* RegeributedTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA34632920319BD2000ECA26 /* RegeributedTextView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EA34631620305561000ECA26 /* HashTagTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashTagTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA34631A20305562000ECA26 /* HashTagTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTagTextViewUITests.swift; sourceTree = "<group>"; };
 		EA34631C20305562000ECA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA34632920319BD2000ECA26 /* RegeributedTextView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RegeributedTextView.framework; path = Carthage/Build/iOS/RegeributedTextView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA34632A20319BD2000ECA26 /* RegeributedTextView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				EA34630E20305561000ECA26 /* HashTagTextViewTests */,
 				EA34631920305561000ECA26 /* HashTagTextViewUITests */,
 				EA3462F820305561000ECA26 /* Products */,
+				EA34632820319BD2000ECA26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +129,14 @@
 			path = HashTagTextViewUITests;
 			sourceTree = "<group>";
 		};
+		EA34632820319BD2000ECA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA34632920319BD2000ECA26 /* RegeributedTextView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +147,7 @@
 				EA3462F320305561000ECA26 /* Sources */,
 				EA3462F420305561000ECA26 /* Frameworks */,
 				EA3462F520305561000ECA26 /* Resources */,
+				EA34632B20319BE1000ECA26 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -253,6 +266,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA34632B20319BE1000ECA26 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RegeributedTextView",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA3462F320305561000ECA26 /* Sources */ = {
@@ -428,6 +459,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HashTagTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.HashTagTextView;
@@ -443,6 +478,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HashTagTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.HashTagTextView;
